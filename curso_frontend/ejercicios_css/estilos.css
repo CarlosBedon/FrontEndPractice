@@ -1,0 +1,140 @@
+body {
+    margin : 0;
+}
+
+.contenedor-padre {
+    background-color : rgb(215, 228, 42);
+    color : #fff;
+    width : 1200px;
+    height : 90vh;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    margin: 40px;
+    box-sizing: border-box;
+    font-size: 40px;
+    position: absolute;
+}
+
+.contenedor-padre .contenedor-hijo1{
+    width: 400px;
+    height: 150px;
+    border: 1px black solid;
+    background-color: green;
+    align-items: top;
+    align-content: top;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contenedor-padre .contenedor-hijo1 h2{
+    font-size: 35px;
+    margin: 0;
+}
+
+.contenedor-padre .contenedor-hijo1 h3{
+    font-size: 25px;
+    padding-left: 170px;
+}
+
+.contenedor-padre .contenedor-hijo2{
+    width: 400px;
+    height: 150px;
+    border: 1px black solid;
+    background-color: green;
+    align-items: top;
+    align-content: top;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.contenedor-padre .contenedor-hijo2 h2{
+    font-size: 35px;
+    text-align: end;
+    margin:0;
+}
+
+.contenedor-padre .contenedor-hijo2 h3{
+    font-size: 25px;
+    padding-left: 170px;
+}
+
+.contenedor-padre .contenedor-hijo3{
+    width: 400px;
+    height: 150px;
+    border: 1px black solid;
+    background-color: green;
+    align-items: bottom;
+    align-content: bottom;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    text-align: bottom;
+
+    
+
+}
+.contenedor-padre .contenedor-hijo3 h2{
+    font-size: 35px;
+    text-align: left;
+    margin:0;
+}
+
+.contenedor-padre .contenedor-hijo3 h3{
+    font-size: 25px;
+    padding-left: 170px;
+
+}
+
+.contenedor-padre .contenedor-hijo4{
+    width: 400px;
+    height: 150px;
+    border: 1px black solid;
+    background-color: green;
+    align-items: bottom;
+    align-content: bottom;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    text-align: bottom;
+    
+
+}
+.contenedor-padre .contenedor-hijo4 h2{
+    font-size: 35px;
+    text-align: right;
+    margin:0;
+}
+
+.contenedor-padre .contenedor-hijo4 h3{
+    font-size: 25px;
+    padding-left: 170px;
+
+}
+
+.contenedor-padre .contenedor-hijo5{
+    width: 400px;
+    height: 150px;
+    border: 1px black solid;
+    background: linear-gradient(to right, rgb(126, 15, 15) , rgb(25, 27, 173), rgb(143, 25, 117));
+    position: absolute;
+    bottom: 250px;
+    right: 100px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+
+}
+.contenedor-padre .contenedor-hijo5 h2{
+    font-size: 35px;
+    text-align: center;
+    margin:0;
+}
+
+.contenedor-padre .contenedor-hijo5 h3{
+    font-size: 25px;
+
+}
